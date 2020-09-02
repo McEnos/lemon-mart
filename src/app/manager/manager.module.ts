@@ -5,10 +5,10 @@ import { ManagerRoutingModule } from './manager-routing.module';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatTooltipModule } from '@angular/material/tooltip';
 import { NgModule } from '@angular/core';
 import { ReceiptLookupComponent } from './receipt-lookup/receipt-lookup.component';
 import { UserManagementComponent } from './user-management/user-management.component';
-
 @NgModule({
   declarations: [
     ManagerHomeComponent,
@@ -22,6 +22,7 @@ import { UserManagementComponent } from './user-management/user-management.compo
     MatButtonModule,
     MatIconModule,
     MatToolbarModule,
+    MatTooltipModule,
   ],
 })
 export class ManagerModule {}
