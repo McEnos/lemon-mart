@@ -8,6 +8,7 @@ import { InventoryModule } from './inventory/inventory.module';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatTooltipModule } from '@angular/material/tooltip';
 import { NgModule } from '@angular/core';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { PosModule } from './pos/pos.module';
@@ -23,6 +24,7 @@ import { from } from 'rxjs';
     MatButtonModule,
     MatToolbarModule,
     MatIconModule,
+    MatTooltipModule,
     FlexLayoutModule,
     InventoryModule,
     PosModule,
